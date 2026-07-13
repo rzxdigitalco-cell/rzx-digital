@@ -85,7 +85,7 @@ export function Hero() {
             <div className="overflow-hidden rounded-card border border-border shadow-soft-lg">
               <div className="relative aspect-[16/10.5]">
                 <Image
-                  src="/images/sortmystay.png"
+                  src="/images/SortMyStay.png"
                   alt="SortMyStay"
                   fill
                   priority
