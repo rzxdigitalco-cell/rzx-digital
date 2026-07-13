@@ -11,7 +11,7 @@ export function Logo({ className }: { className?: string }) {
       className={cn("flex items-center", className)}
     >
       <Image
-        src="/images/logo.png"
+        src="/images/LOGO.png"
         alt="RZX Digital"
         width={170}
         height={55}
