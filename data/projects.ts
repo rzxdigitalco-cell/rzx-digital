@@ -9,62 +9,7 @@ import type { Project } from "@/types";
  */
 export const projects: Project[] = [
   // ─────────────────────────── CLIENT PROJECTS ───────────────────────────
-  {
-    slug: "sortmystay",
-    name: "SortMyStay",
-    industry: "Hospitality & Rentals",
-    year: "2024",
-    category: "professional",
-    agencyCategory: "Hospitality",
-    featured: true,
-    shortDescription:
-      "A dual-dashboard booking platform for luxury villas and PG accommodations — one consistent booking flow for two very different property types.",
-    overview:
-      "SortMyStay connects travellers with villas and PG (paying-guest) accommodations through a single booking experience. Owners get a dashboard to list and manage inventory; guests get a fast, visual way to browse listings, check amenities, and book online — no calls or manual coordination required.",
-    businessChallenge:
-      "Independent villa and PG owners had no consistent way to list properties online or manage bookings without relying on calls and messages. The platform needed to handle two very different listing types — short-stay villas and long-stay PG rooms — under one coherent booking experience.",
-    solution:
-      "We designed a unified booking flow that adapts to both property types, with a dedicated owner dashboard for adding and managing listings, a gallery-first browsing experience for guests, and a data structure built to support new property categories without reworking the core booking logic.",
-    responsibilities: [
-      "End-to-end frontend development of the guest-facing booking experience",
-      "Villa and PG listing detail pages with gallery components",
-      "Owner dashboard for managing listings",
-      "Responsive design across mobile and desktop",
-    ],
-    techStack: ["React", "Next.js", "Tailwind CSS", "Node.js", "MongoDB"],
-    keyFeatures: [
-      { icon: "Search", title: "Property Discovery", description: "Browse villas and PG listings with a gallery-first layout and clear amenity breakdowns." },
-      { icon: "LayoutDashboard", title: "Owner Dashboard", description: "Property owners add, edit, and manage their own listings independently." },
-      { icon: "Image", title: "Rich Media Galleries", description: "Multi-image galleries for each property to help guests decide with confidence." },
-      { icon: "Smartphone", title: "Responsive Booking Flow", description: "A consistent booking experience across every device, from listing to confirmation." },
-    ],
-    challenges: {
-      business: "Two distinct accommodation types needed to feel native to the same platform without confusing either audience.",
-      technical: "Structuring listing data so villas and PG rooms could share booking and dashboard components while still surfacing type-specific details.",
-    },
-    lessonsLearned: [
-      "Designing flexible data models that serve more than one product type without duplicating UI logic",
-      "Building dashboards non-technical property owners can actually use",
-      "Prioritizing image-heavy layouts for performance on mobile networks",
-    ],
-    outcomes: [
-      "Production website live for a real hospitality client",
-      "Responsive, mobile-first design",
-      "Owner-managed listing system that removed manual coordination",
-    ],
-    coverImage: {
-      src: "/images/SortMyStay.png",
-      alt: "SortMyStay villa and PG booking platform",
-    },
-    gallery: [
-      { src: "", alt: "Gallery-first homepage across villa and PG listings" },
-      { src: "", alt: "Single villa detail page with image gallery" },
-      { src: "", alt: "PG accommodation listing and detail pages" },
-      { src: "", alt: "Villa owner dashboard for managing listings" },
-    ],
-    liveUrl: "https://sortmystay.co.in/",
-  },
-  
+   
   // ─────────────────────────── TEAM BUILDS ───────────────────────────
   {
     slug: "gocart",
