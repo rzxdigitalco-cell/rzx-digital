@@ -74,33 +74,6 @@ export function Hero() {
             </Button>
           </motion.div>
         </div>
-
-        {heroProject ? (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.96 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-            className="relative"
-          >
-            <div className="overflow-hidden rounded-card border border-border shadow-soft-lg">
-              <div className="relative aspect-[16/10.5]">
-                <Image
-                  src="/images/SortMyStay.png"
-                  alt="SortMyStay"
-                  fill
-                  priority
-                  className="object-cover transition-transform duration-700 hover:scale-105"
-                />
-              </div>
-            </div>
-            <div className="absolute -bottom-5 -left-5 hidden rounded-card border border-border bg-surface px-4 py-3 shadow-soft-lg sm:block">
-              <p className="font-mono text-xs text-muted-foreground">Featured Work</p>
-              <p className="font-heading text-sm font-semibold text-foreground">
-                {heroProject.name}
-              </p>
-            </div>
-          </motion.div>
-        ) : null}
       </Container>
     </section>
   );
